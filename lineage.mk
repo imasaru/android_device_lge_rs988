@@ -1,4 +1,4 @@
-$(call inherit-product, device/lge/h830/full_h830.mk)
+$(call inherit-product, device/lge/rs988/full_rs988.mk)
 
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
@@ -6,7 +6,7 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 # Overlays (inherit after vendor/cm to ensure we override it)
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-PRODUCT_NAME := lineage_h830
+PRODUCT_NAME := lineage_rs988
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE="g5" \
