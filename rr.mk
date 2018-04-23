@@ -1,12 +1,12 @@
 $(call inherit-product, device/lge/rs988/full_rs988.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Resurrection Remix stuff.
+$(call inherit-product, vendor/rr/config/common_full_phone.mk)
 
 # Overlays (inherit after vendor/cm to ensure we override it)
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-PRODUCT_NAME := lineage_rs988
+PRODUCT_NAME := rr_rs988
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="h1" \
