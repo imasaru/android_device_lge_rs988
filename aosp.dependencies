@@ -1,0 +1,8 @@
+[
+  {
+    "remote": "github",
+    "repository": "LineageOS/android_device_lge_g5-common",
+    "target_path": "device/lge/g5-common"
+    "branch": "lineage-15.1"
+  }
+]
