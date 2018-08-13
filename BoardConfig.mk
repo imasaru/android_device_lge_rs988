@@ -23,7 +23,7 @@ DEVICE_PATH := device/lge/rs988
 TARGET_OTA_ASSERT_DEVICE := g5,h1,rs988
 
 # Kernel
-TARGET_KERNEL_CONFIG := resurrected_defconfig
+TARGET_KERNEL_CONFIG := lineageos_rs988_defconfig
 
 # Partitions
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 25174212608
