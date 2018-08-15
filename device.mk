@@ -36,3 +36,17 @@ PRODUCT_COPY_FILES += \
 # WiFi Calibration
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/wifi/bcmdhd.cal:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd.cal
+
+# LineageOS4microG custom packages
+PRODUCT_PACKAGES += \
+    FDroid \
+    FDroidPrivilegedExtension \
+    FakeStore \
+    GmsCore \
+    GsfProxy \
+    MozillaNlpBackend \
+    NominatimNlpBackend \
+    OpenWeatherMapWeatherProvider \
+    WundergroundWeatherProvider \
+    YahooWeatherProvider \
+
