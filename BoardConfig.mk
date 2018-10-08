@@ -1,6 +1,6 @@
 #
 # Copyright (C) 2016 The CyanogenMod Project
-# Copyright (C) 2017 The LineageOS Project
+# Copyright (C) 2017-2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -25,8 +25,8 @@ TARGET_OTA_ASSERT_DEVICE := g5,h1,rs988
 # Kernel
 TARGET_KERNEL_CONFIG := lineageos_rs988_defconfig
 
-# Properties
-TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+# Partitions
+BOARD_USERDATAIMAGE_PARTITION_SIZE := 25174212608
 
 # inherit from the proprietary version
 -include vendor/lge/rs988/BoardConfigVendor.mk
